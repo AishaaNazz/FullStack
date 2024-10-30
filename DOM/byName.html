@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <input type="radio" name="gender">Male</input>
+        <input type="radio" name="gender">Female</input><br><br>
+        <input type="button" value="count" onclick="totalCount()"/>
+        
+        
+
+    </form>
+
+
+    <script>
+        function totalCount(){
+            let num =document.getElementsByName("gender");
+            alert("toal count of radio buttons are"+num.length)
+        }
+
+
+    </script>
+</body>
+</html>

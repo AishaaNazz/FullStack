@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="demo"></div>
+    <button onclick="myfun()">click me</button>
+    <form>
+        Enter a number:<input type="text" id="number" />
+        <br/>
+        <input type="button" value="square" onclick="square()"/>
+    </form>
+    
+
+    <script>
+        function myfun(){
+            document.getElementById("demo").innerHTML="hello";
+        }
+
+        
+        function square(){
+                var number=document.getElementById("number").value;
+                document.write("result of square is="+(number*number))
+        }
+         
+    </script>
+</body>
+</html>
